@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Тест на совместимость</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="logo" class="logo">
+            </div>            
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#section-1">Введение</a></li>
+                    <hr>
+                    <li><a href="#section-2">Тест</a></li>
+                    <hr>
+                    <li><a href="#section-3">Информация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="section-1" class="section-1">
+        <div class="container">
+            <div class="info">
+                <div class="info-title">
+                    <span>Тест на совместимость</span>
+                </div>
+                <div class="info-text">
+                    <p> И в прошлом, и в настоящем, людям всегда было интересно знать, что ждёт в дальнейшем человека и его пару.<br>Есть ли у них будущее? С какими проблемами они могут столкнуться во время притирки характеров? И что можно сделать, чтобы избежать больших ссор?</p>
+                </div>
+                <a href="#section-2" class="btn">Пройти тест</a>
+            </div>
+        </div>
+    </section>
+    <section id="section-2" class="section-2">
+        <div class="container">
+            <div class="test">
+                <form method="POST" action="/" class="input">
+                    <span class="date">Укажите ваши данные:</span>
+                    <div class="select">
+                        <select name="day" id="day"><option value='1'>1<option value='2'>2<option value='3'>3<option value='4'>4<option value='5'>5<option value='6'>6<option value='7'>7<option value='8'>8<option value='9'>9<option value='10'>10<option value='11'>11<option value='12'>12<option value='13'>13<option value='14'>14<option value='15'>15<option value='16'>16<option value='17'>17<option value='18'>18<option value='19'>19<option value='20'>20<option value='21'>21<option value='22'>22<option value='23'>23<option value='24'>24<option value='25'>25<option value='26'>26<option value='27'>27<option value='28'>28<option value='29'>29<option value='30'>30<option value='31'>31</select>
+                        <select name="month" id="month">
+                            <option value="1">Январь</option>
+                            <option value="2">Февраль</option>
+                            <option value="3">Март</option>
+                            <option value="4">Апрель</option>
+                            <option value="5">Май</option>
+                            <option value="6">Июнь</option>
+                            <option value="7">Июль</option>
+                            <option value="8">Август</option>
+                            <option value="9">Сентябрь</option>
+                            <option value="10">Октябрь</option>
+                            <option value="11">Ноябрь</option>
+                            <option value="12">Декабрь</option>
+                        </select>
+                        <select name="gender" id="gender">
+                            <option value="female">Женский</option>
+                            <option value="male">Мужской</option>
+                        </select>
+                    </div>
+                <span>Укажите данные вашего партнера:</span>
+                    <div class="select">
+                        <select name="partner_day" id="partner_day"><option value='1'>1<option value='2'>2<option value='3'>3<option value='4'>4<option value='5'>5<option value='6'>6<option value='7'>7<option value='8'>8<option value='9'>9<option value='10'>10<option value='11'>11<option value='12'>12<option value='13'>13<option value='14'>14<option value='15'>15<option value='16'>16<option value='17'>17<option value='18'>18<option value='19'>19<option value='20'>20<option value='21'>21<option value='22'>22<option value='23'>23<option value='24'>24<option value='25'>25<option value='26'>26<option value='27'>27<option value='28'>28<option value='29'>29<option value='30'>30<option value='31'>31</select>
+                            <select name="partner_month" id="partner_month">
+                                <option value="1">Январь</option>
+                                <option value="2">Февраль</option>
+                                <option value="3">Март</option>
+                                <option value="4">Апрель</option>
+                                <option value="5">Май</option>
+                                <option value="6">Июнь</option>
+                                <option value="7">Июль</option>
+                                <option value="8">Август</option>
+                                <option value="9">Сентябрь</option>
+                                <option value="10">Октябрь</option>
+                                <option value="11">Ноябрь</option>
+                                <option value="12">Декабрь</option>
+                            </select>
+                            <select name="partner_gender" id="partner_gender">
+                                <option value="female">Женский</option>
+                                <option value="male">Мужской</option>
+                            </select>
+                    </div>
+                    <button type="submit" name="submit" class="btn-test">Рассчитать совместимость</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="section-3" class="section-3">
+        <div class="container">
+            <div class="text-block">
+                <p>Проверка совместимости по дате рождения может оценить, на сколько процентов мужчина и женщина подходят друг другу в качестве партнёров для любви, дружбы, брака или делового сотрудничества.</p>
+            </div>
+            <div class="three-block">
+                <div id="block-1" class="block">
+                    <span>Совместимость в любви и браке</span>
+                    <p>- поможет вашей паре разобраться в своих отношениях, понять, как лучше строить общение и преодолевать трудности отношений.</p>
+                </div>
+                <div class="block">
+                    <span>Дружеская совместимость</span>
+                    <p>- говорит о перспективах дружеских отношений, готовности к помощи и поддержке.</p>
+                </div>
+                <div class="block">
+                    <span>Совместимость в работе и бизнесе</span>
+                    <p>- позволит узнать перспективы развития делового сотрудничества или для принятия на работу работников.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-output">
+        <div id="output" class="output">
+                {% if info %}
+            <h2>Additional Information:</h2>
+            <p>Day: {{ day }}</p>
+            <p>Month: {{ month }}</p>
+            <p>Gender: {{ gender }}</p>
+
+            <p>Day: {{ partner_day }}</p>
+            <p>Month: {{ partner_month }}</p>
+            <p>Gender: {{ partner_gender }}</p>
+        {% endif %}
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <img src="img/ecps.png" alt="logo-ecps" class="ecps">
+            <p class="footer-text">ЭК-411 Петренко В.В., Мацай В. А., Олейникова А.К.</p>
+        </div>
+    </footer>
+</body>
+</html>
